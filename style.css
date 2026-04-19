@@ -19,7 +19,7 @@ h3 {
 }
 /* Button Primary */
 
-.contact-button {
+.primary-link {
   display: block;
   width: fit-content;
   margin: 50px auto;
@@ -32,7 +32,7 @@ h3 {
 }
 
 .secundary-link {
-  margin: 50px auto;
+  display: inline-block;
   border-radius: 4px;
   background-color: white;
   color: black;
@@ -40,9 +40,10 @@ h3 {
   text-decoration: none;
   font-size: 12px;
   border: 1px solid #555555;
+  margin-top: 20px 20px 20px;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
