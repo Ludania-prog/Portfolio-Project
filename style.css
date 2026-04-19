@@ -1,0 +1,48 @@
+h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  margin: 30px;
+}
+h2 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+}
+
+h3 {
+  margin: 30px;
+}
+/* Button Primary */
+
+.contact-button {
+  display: block;
+  width: fit-content;
+  margin: 50px auto;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  padding: 14px 40px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.secundary-link {
+  margin: 50px auto;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  padding: 14px 40px;
+  text-decoration: none;
+  font-size: 12px;
+  border: 1px solid #555555;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
