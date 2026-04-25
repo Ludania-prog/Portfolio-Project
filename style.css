@@ -2,11 +2,11 @@
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
-  background-color: #f2f2f2;
+  background-color: #fefafa;
 }
 
 body {
-  background-color: #f2f2f2;
+  background-color: #fefafa;
 }
 
 h1 {
@@ -38,6 +38,7 @@ p {
   line-height: 1.8;
   margin: 30px;
   margin-right: 200px;
+  text-align: left;
 }
 /* Button Primary */
 
@@ -63,7 +64,7 @@ p {
 .secundary-link {
   display: inline-block;
   border-radius: 4px;
-  background-color: #f2f2f2;
+  background-color: #fefafa;
   color: black;
   padding: 14px 40px;
   text-decoration: none;
@@ -86,7 +87,7 @@ a {
 
 footer {
   margin-top: 50px;
-  background-color: #f2f2f2;
+  background-color: #fefafa;
   margin-bottom: 10px;
 }
 footer a {
@@ -110,11 +111,10 @@ hr {
   }
 }
 
-.project-img-yogurt {
+.my-project-img {
   width: 100%;
   max-width: 400px;
   height: auto;
-  display: block;
 }
 
 @media (max-width: 768px) {
@@ -174,4 +174,19 @@ hr {
 my-project-img {
   max-width: 280px;
   height: auto;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #project-1 p,
+  #project-2 p,
+  #project-3 p {
+    text-align: justify;
+    display: flex;
+    margin: 20px;
+  }
+  .container {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+  }
 }
