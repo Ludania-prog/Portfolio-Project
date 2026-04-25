@@ -22,14 +22,22 @@ h2 {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-size: 28px;
+  font-size: 38px;
+  margin-bottom: 40px;
 }
 
 h3 {
   margin: 30px;
 }
+h4 {
+  margin-top: 30px;
+  font-size: 18px;
+  margin-left: 30px;
+}
 p {
   line-height: 1.8;
+  margin: 30px;
+  margin-right: 200px;
 }
 /* Button Primary */
 
@@ -68,20 +76,20 @@ footer {
   margin-bottom: 10px;
 }
 hr {
-  width: 10px;
+  width: 15px;
   color: black;
   border: black;
 }
 
-@media (maz-width: 900px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 30px;
   }
 }
 
-project-img {
+.project-img-yogurt {
+  max-width: 100px;
   width: 80%;
-  max-width: 350px;
   height: auto;
 }
 
@@ -89,4 +97,36 @@ project-img {
   .project-img {
     height: 200px;
   }
+}
+
+@media (max-width: 576px) {
+  .project-title {
+    text-align: center;
+  }
+  .about-section p {
+    text-align: justify;
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+  .about-me-image {
+    margin: 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-me-image img {
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+  }
+}
+
+.about-me-image img {
+  max-width: 240px;
+  width: 90%;
+  height: auto;
+}
+
+.project-title {
+  margin: 30px;
 }
