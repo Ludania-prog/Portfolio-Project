@@ -51,6 +51,13 @@ p {
   padding: 14px 40px;
   text-decoration: none;
   font-size: 12px;
+  transition: all 0.3s ease;
+}
+.primary-link:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  transform: translateY(-2px);
 }
 
 .secundary-link {
@@ -63,6 +70,13 @@ p {
   font-size: 12px;
   border: 1px solid #555555;
   margin: 20px 20px 20px;
+  transition: all 0.3s ease;
+}
+.secundary-link:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  transform: translateY(-2px);
 }
 
 a {
@@ -75,10 +89,19 @@ footer {
   background-color: #f2f2f2;
   margin-bottom: 10px;
 }
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer a:hover {
+  opacity: 0.6;
+}
+
 hr {
-  width: 15px;
-  color: black;
-  border: black;
+  width: 100%;
+  margin-top: 20px;
+  padding: auto;
 }
 
 @media (max-width: 900px) {
@@ -88,9 +111,10 @@ hr {
 }
 
 .project-img-yogurt {
-  max-width: 100px;
-  width: 80%;
+  width: 100%;
+  max-width: 400px;
   height: auto;
+  display: block;
 }
 
 @media (max-width: 768px) {
@@ -110,6 +134,22 @@ hr {
   }
   .about-me-image {
     margin: 8px;
+  }
+
+  #project-1 h2 {
+    text-align: center;
+  }
+
+  #project-2 h2 {
+    text-align: center;
+  }
+  #project-1 p,
+  #project-2 p,
+  #project-3 p {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
   }
 }
 
@@ -134,8 +174,4 @@ hr {
 my-project-img {
   max-width: 280px;
   height: auto;
-}
-
-.project-2 {
-  margin-left:;
 }
