@@ -121,6 +121,9 @@ hr {
   .project-img {
     height: 200px;
   }
+  .contact-section p {
+    text-align: center;
+  }
 }
 
 @media (max-width: 576px) {
@@ -189,4 +192,27 @@ my-project-img {
     padding-right: 40px;
     margin: 0 auto;
   }
+}
+
+.contact-section {
+  max-width: 600px;
+  text-align: justify;
+  margin: 0 auto;
+  text-align: center;
+}
+.contact-section p {
+  margin-left: 110px;
+  margin-right: 50px;
+}
+
+.email-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #000;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
