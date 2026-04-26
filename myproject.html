@@ -20,48 +20,59 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Font awesome icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
     <link rel="stylesheet" href="style.css" />
 
     <title>Portfolio</title>
   </head>
   <body>
+    <!-- Navbar -->
     <div class="divnavbar">
-      <nav class="navbar navbar-expand-lg style=background-color:#f2f2f2">
-        <a class="navbar-brand" href="#">Ludania</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
-          <ul class="nav justify-content-end">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html"
-                >Home <span class="sr-only"></span
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="myproject.html">My work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
+      <nav class="navbar navbar-expand-lg" style="background-color: #f2f2f2">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Ludania</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="myproject.html">My Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </div>
+    <!-- Title -->
     <div class="container">
       <h1 class="text-center">My work</h1>
       <h3 class="text-center">
@@ -173,13 +184,25 @@
           </div>
         </div>
       </div>
-      <footer class="footer">
+      <!-- Footer -->
+      <footer class="mt-5">
         <div class="d-flex justify-content-evenly">
           <a href="about.html">About</a>
           <a href="index.html">Blog</a>
-          <a href="contact.html">Suport</a>
+          <a href="contact.html">Support</a>
         </div>
+
         <hr />
+        <!-- Icons -->
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://facebook.com"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="https://instagram.com"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://github.com"><i class="fa-brands fa-github"></i></a>
+        </div>
       </footer>
     </div>
   </body>

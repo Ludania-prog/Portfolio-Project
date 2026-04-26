@@ -89,6 +89,7 @@ footer {
   margin-top: 50px;
   background-color: #fefafa;
   margin-bottom: 10px;
+  text-align: center;
 }
 footer a {
   text-decoration: none;
@@ -97,6 +98,16 @@ footer a {
 
 footer a:hover {
   opacity: 0.6;
+}
+
+footer .social-links a {
+  margin: 0 30px;
+  display: flex;
+  background-color: #f2f2f2;
+  padding: 10px 16px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
 }
 
 hr {
